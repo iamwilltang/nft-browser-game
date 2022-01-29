@@ -1,7 +1,7 @@
 {
   "name": "epic-game",
   "version": "1.0.0",
-  "description": "I built an NFT Browser Game that you can play! Here: https://nft-game-starter-project.iamwilltang.repl.co/",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,18 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.4",
-    "@nomiclabs/hardhat-waffle": "^2.0.2",
-    "chai": "^4.3.6",
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.5.3",
-    "hardhat": "^2.8.3"
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.4.1",
     "dotenv": "^10.0.0"
-  },
-  "directories": {
-    "test": "test"
   }
 }
